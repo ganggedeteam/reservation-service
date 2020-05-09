@@ -19,11 +19,14 @@ public class CalendarProvider {
         StringBuilder sql =new StringBuilder("select a.*,h.department_name,d.doctor_name from admission_calendar a,hospital_department h, doctor_info d " +
                 "where a.department_id = h.department_id and d.doctor_id = a.doctor_id ");
 <<<<<<< HEAD
+<<<<<<< HEAD
         if(StringUtils.isNotEmpty(calendar.getHospitalId())) {
             sql.append("and a.hospital_id='" + calendar.getHospitalId() + "' ");
         }
         if(StringUtils.isNotEmpty(calendar.getDepartmentName())) {
 =======
+=======
+>>>>>>> parent of c72d74c... 修改了预约功能中的几处BUG
         sql.append("and a.hospital_id='" + calendar.getHospitalId() + "' ");
         if(StringUtils.isNotEmpty(calendar.getDoctorName())) {
 >>>>>>> parent of c72d74c... 修改了预约功能中的几处BUG

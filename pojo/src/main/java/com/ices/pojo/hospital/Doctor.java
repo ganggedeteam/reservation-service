@@ -44,7 +44,4 @@ public class Doctor extends Page {
     public String introduction;
     @Column(column = "doctor_photo")
     public String doctorPhoto;
-    @Column(column = "login_id")
-    public String loginId;
-    public String loginPwd;
 }

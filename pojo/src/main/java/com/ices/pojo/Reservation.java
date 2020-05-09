@@ -1,4 +1,4 @@
-package com.ices.pojo.reservation;
+package com.ices.pojo;
 
 import com.ices.pojo.hospital.Calendar;
 import com.ices.reservation.common.sql.Column;

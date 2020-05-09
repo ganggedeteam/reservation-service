@@ -1,6 +1,7 @@
 package com.ices.reservation.manager.dao.reservation;
 
-import com.ices.pojo.reservation.Reservation;
+import com.ices.pojo.Reservation;
+import com.ices.pojo.hospital.Calendar;
 import com.ices.reservation.common.sql.BaseDao;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

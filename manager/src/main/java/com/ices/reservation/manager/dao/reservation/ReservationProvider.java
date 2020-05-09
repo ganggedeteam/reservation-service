@@ -1,6 +1,7 @@
 package com.ices.reservation.manager.dao.reservation;
 
-import com.ices.pojo.reservation.Reservation;
+import com.ices.pojo.Reservation;
+import com.ices.pojo.hospital.Calendar;
 import com.ices.reservation.manager.dao.hospital.CalendarProvider;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
